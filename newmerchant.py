@@ -19,7 +19,7 @@ def read_merchant(filename: str) -> [merchant]:
             ))
     return merches
 
-
+"""
 def partition(data: list[str], pivot: int) -> Tuple(list[str], list[str], list[str]):
     less, equal, greater = [], [], []
     for element in data:
@@ -30,7 +30,7 @@ def partition(data: list[str], pivot: int) -> Tuple(list[str], list[str], list[s
         else:
             equal.append(element)
     return less, equal, greater
-
+"""
 
 def main(filename: str):
     Mlst = read_merchant(filename)
